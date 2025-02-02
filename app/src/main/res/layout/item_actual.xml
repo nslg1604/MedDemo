@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/item_actual_card_view"
+    android:layout_width="@dimen/s_200"
+    android:layout_height="@dimen/s_200"
+    android:layout_margin="@dimen/s_006"
+    android:background="@drawable/rectangle_border_gold"
+    card_view:cardCornerRadius="@dimen/s_008"
+    card_view:cardElevation="0dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/s_002"
+        >
+
+        <ImageView
+            android:id="@+id/item_actual_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/item_actual_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_006"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center_horizontal|bottom"
+            android:textColor="@color/black"
+            android:fontFamily="@font/circe_regular"
+            android:textSize="@dimen/t_018" />
+
+    </FrameLayout>
+</LinearLayout>

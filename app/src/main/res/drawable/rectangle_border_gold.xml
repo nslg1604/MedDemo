@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="@color/gold"/>
+            <corners android:radius="8dip"/>
+            <padding android:top="2dp" android:bottom="2dp" android:left="2dp" android:right="2dp"/>
+        </shape>
+    </item>
+
+</selector>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item >-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <padding android:left="10dp"-->
+<!--                android:top="10dp"-->
+<!--                android:right="10dp"-->
+<!--                android:bottom="10dp"/>-->
+<!--            <solid android:color="@color/gold"/>-->
+
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item >-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <padding android:left="10dp"-->
+<!--                android:top="10dp"-->
+<!--                android:right="10dp"-->
+<!--                android:bottom="10dp"/>-->
+
+<!--            <solid android:color="@color/white"/>-->
+
+<!--            <corners android:bottomRightRadius="7dp"-->
+<!--                android:bottomLeftRadius="7dp"-->
+<!--                android:topLeftRadius="7dp"-->
+<!--                android:topRightRadius="7dp" />-->
+
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item >-->
+<!--        <shape android:shape="rectangle">-->
+
+<!--            <padding android:left="10dp"-->
+<!--                android:top="10dp"-->
+<!--                android:right="10dp"-->
+<!--                android:bottom="10dp"/>-->
+
+<!--            <solid android:color="@color/gold"/>-->
+
+
+<!--            <corners android:bottomRightRadius="7dp"-->
+<!--                android:bottomLeftRadius="7dp"-->
+<!--                android:topLeftRadius="7dp"-->
+<!--                android:topRightRadius="7dp" />-->
+
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item >-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="@color/white"/>-->
+
+<!--            <corners android:bottomRightRadius="7dp"-->
+<!--                android:bottomLeftRadius="7dp"-->
+<!--                android:topLeftRadius="7dp"-->
+<!--                android:topRightRadius="7dp" />-->
+
+<!--        </shape>-->
+<!--    </item>-->
+<!--</layer-list>-->
+
+<!--..............................................-->
+    <!--&lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<layer-list xmlns:android="http://schemas.android.com/apk/res/android">&ndash;&gt;-->
+
+<!--&lt;!&ndash;    &lt;!&ndash;// outer rectangle&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    <item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <shape android:shape="rectangle">&ndash;&gt;-->
+<!--&lt;!&ndash;            <corners android:radius="10dp" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <solid android:color="@color/white" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <stroke&ndash;&gt;-->
+<!--&lt;!&ndash;                android:width="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:color="@color/black" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        </shape>&ndash;&gt;-->
+<!--&lt;!&ndash;    </item>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    &lt;!&ndash;    // inside rectangle&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    <item&ndash;&gt;-->
+<!--&lt;!&ndash;        android:bottom="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:left="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:right="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:top="10dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <shape android:shape="rectangle">&ndash;&gt;-->
+<!--&lt;!&ndash;            <corners android:radius="10dp" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <solid android:color="@color/white" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <stroke&ndash;&gt;-->
+<!--&lt;!&ndash;                android:width="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:color="@color/red" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </shape>&ndash;&gt;-->
+<!--&lt;!&ndash;    </item>&ndash;&gt;-->
+<!--</layer-list>-->
+
+<!--.......................................................-->
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--    <item>-->
+    <!--        <shape android:shape="rectangle">-->
+    <!--            <stroke android:width="2dp" android:color="@color/gold"/>-->
+    <!--            <corners android:radius="8dip"/>-->
+    <!--            <padding android:top="10dp" android:bottom="10dp" android:left="20dp" android:right="20dp"/>-->
+    <!--        </shape>-->
+    <!--    </item>-->
+
+    <!--</selector>-->

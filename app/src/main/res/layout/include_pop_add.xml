@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_add_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pop_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/s_020"
+        android:layout_marginRight="@dimen/s_020"
+        android:gravity="center"
+        android:text="@string/pop_add_comment"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/s_030"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pop_add_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/s_020"
+        android:layout_marginRight="@dimen/s_020"
+        android:gravity="center"
+        android:text="@string/popular_add"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/s_022" />
+
+    <TextView
+        android:id="@+id/pop_add_title_calendars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginTop="@dimen/s_010"
+        android:layout_marginLeft="@dimen/s_004"
+        android:gravity="center_vertical|left"
+        android:text="@string/calendars"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/s_024"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pop_add_recycler_calendars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" />
+
+    <TextView
+        android:id="@+id/pop_add_title_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="@dimen/s_004"
+        android:gravity="center_vertical|left"
+        android:text="@string/other"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/s_024"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pop_add_recycler_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" />
+</LinearLayout>
+</merge>

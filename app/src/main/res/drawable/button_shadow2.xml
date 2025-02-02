@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <padding android:bottom="15dp" android:top="15dp" android:left="15dp" android:right="15dp"/>
+                    <gradient
+                        android:angle="270"
+                        android:startColor="#000000"
+                        android:endColor="#ffffff"
+                        android:type="radial"
+                        android:centerX="0.5"
+                        android:centerY="0.5"
+                        android:gradientRadius="10"/>
+
+
+<!--                    <gradient-->
+<!--                        android:startColor="#000000"-->
+<!--                        android:endColor="#ffffff"-->
+<!--                        android:angle="270"-->
+<!--                        android:gradientRadius="@dimen/s_004"-->
+<!--                        />-->
+                    <corners android:radius="19dp"/>
+                </shape>
+            </item>
+
+<!--            &lt;!&ndash; SHADOW &ndash;&gt;-->
+<!--            <item>-->
+<!--                <shape>-->
+<!--                    <padding android:bottom="15dp" android:top="15dp" android:left="15dp" android:right="15dp"/>-->
+<!--                    <gradient-->
+<!--                        android:angle="0"-->
+<!--                        android:startColor="#888888"-->
+<!--                        android:endColor="#ffffff"-->
+<!--                        android:type="radial"-->
+<!--                        android:centerX="0.55"-->
+<!--                        android:centerY="0"-->
+<!--                        android:gradientRadius="700"/>-->
+
+
+<!--&lt;!&ndash;                    <gradient&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:startColor="#000000"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:endColor="#ffffff"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:angle="270"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:gradientRadius="@dimen/s_004"&ndash;&gt;-->
+<!--&lt;!&ndash;                        />&ndash;&gt;-->
+<!--                    <corners android:radius="19dp"/>-->
+<!--                </shape>-->
+<!--            </item>-->
+
+            <item
+                android:bottom="5px"
+                >
+                <shape>
+                    <padding android:bottom="5dp"/>
+                    <gradient
+                        android:startColor="#ffffff"
+                        android:endColor="#ffffff"
+                        android:angle="270" />
+                    <corners
+                        android:radius="19dp"/>
+                    <padding
+                        android:left="10dp"
+                        android:top="10dp"
+                        android:right="5dp"
+                        android:bottom="10dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <solid android:color="#000046"/>
+                    <corners android:radius="19dp"/>
+
+                </shape>
+            </item>
+            <!-- BUTTON -->
+            <item android:bottom="5px">
+                <shape>
+                    <padding android:bottom="5dp"/>
+                    <gradient
+                        android:startColor="#000000"
+                        android:endColor="#ee0000"
+                        android:angle="270" />
+                    <corners
+                        android:radius="19dp"/>
+                    <padding
+                        android:left="10dp"
+                        android:top="10dp"
+                        android:right="5dp"
+                        android:bottom="10dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
