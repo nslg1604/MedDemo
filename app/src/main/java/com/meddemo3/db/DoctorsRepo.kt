@@ -7,21 +7,15 @@ import kotlinx.coroutines.withContext
 
 class DoctorsRepo(private val doctorDao: DoctorDao) {
     suspend fun insertDoctor(doctor: DoctorEntity) {
-        withContext(Dispatchers.IO) {
-            doctorDao.insertDoctor(doctor)
-        }
+        doctorDao.insertDoctor(doctor)
     }
 
-    suspend fun getDoctors(): List<DoctorEntity>{
-        return withContext(Dispatchers.IO) {
-            return@withContext doctorDao.getDoctors()
-        }
+    suspend fun getDoctors(): List<DoctorEntity> {
+        return doctorDao.getDoctors()
     }
 
-    suspend fun deleteDoctorById(id: Int){
-        withContext(Dispatchers.IO) {
-            doctorDao.deleteDoctorById(id)
-        }
+    suspend fun deleteDoctorById(id: Int) {
+        doctorDao.deleteDoctorById(id)
     }
 
 }
